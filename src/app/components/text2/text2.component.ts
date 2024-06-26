@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
+import { SonComponent } from "../text3/text3.component";
 
 @Component({
-  selector: 'app-text2',
-  standalone: true,
-  imports: [],
-  templateUrl: './text2.component.html',
-  styleUrl: './text2.component.css'
+    selector: 'app-Dad',
+    standalone: true,
+    templateUrl: './text2.component.html',
+    styleUrl: './text2.component.css',
+    imports: [SonComponent]
 })
-export class Text2Component {
+export class DadComponent {
 
 }
